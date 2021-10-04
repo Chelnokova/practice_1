@@ -60,8 +60,12 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+.block1 {
+	margin: 100px 0 110px 87px;
+}
+
 .block1 .logo {
-	margin: 100px 0 33px 87px;
+	margin-bottom: 33px;
 }
 
 .block1 h2 {
@@ -76,9 +80,8 @@ body {
 }
 
 .block1 .img1 {
-	width: 17px;
-	height: 16px;
-	margin-top: 1px;
+	width: 27px;
+	margin-top: -3px;
 }
 .block1 h3 {
 	font-size: 36px;
@@ -86,11 +89,11 @@ body {
 	color: #02133c;
 	line-height: 42px;
 	max-width: 583px;
-	margin: 0 350px 54px 87px;
+	margin-bottom: 54px;
 }
 
 .block1 p {
-	margin: 0 87px 54px 87px;
+	margin-bottom: 54px;
 	max-width: 846px;
 	font-size: 16px;
 	line-height: 24px;
@@ -100,18 +103,19 @@ body {
 
 .block1 .img2 {
 	width: 846px;
-	height: 420px;
-	margin: 0 87px 110px 87px;
+}
+
+.block2 {
+	margin-left: 87px;
 }
 
 .block2 .logo {
-	margin: 0 0 33px 87px;
+	margin-bottom: 33px;
 }
 
 .block2 .logo img {
-	width: 17px;
-	height: 16px;
-	margin: 4px 16px 0 0;
+	width: 27px;
+	margin-top: -2px;
 }
 
 .block2 .logo h2 {
@@ -130,11 +134,11 @@ body {
 	font-weight: 900;
 	font-size: 36px;
 	line-height: 42px;
-	margin: 0 0 78px 87px;
+	margin-bottom: 78px;
 }
 
 .block2 .content .item {
-	margin: 0 24px 24px 87px;
+	margin-bottom: 24px;
 	width: 324px;
 	height: 340px;
 	padding: 50px 44px;
@@ -201,12 +205,11 @@ ul {
 
 .block4 img {
 	width: 50px;
-	height: 50px;
 	margin-bottom: 9px;
 }
 
 .block4 h2 {
-	font-weight: 500;
+	font-weight: 500px;
 	font-size: 44px;
 	line-height: 58px;
 	margin-bottom: 37px;
