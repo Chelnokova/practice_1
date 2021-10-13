@@ -195,8 +195,17 @@ body {
 }
 
 .block3 p,
-ul {
+ol {
 	margin-bottom: 27px;
+}
+
+.block3 ol {
+	counter-reset: count;
+}
+
+.block3 li::before {
+	counter-increment: count;
+	content: "(" counter(count, lower-alpha) ")";
 }
 
 .block4 {
